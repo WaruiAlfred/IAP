@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Contact</title>
-    <link rel="stylesheet" href="./styles/main.css" />
-    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <script src="./js/scripts.js" defer></script>
+    <script src="./js/contact.js" defer></script>
   </head>
   <body>
     <header>
@@ -19,27 +21,23 @@
     </header>
 
     <main>
-      <section class="form-section">
-        <h2>Contact me</h2>
-        <form id="infoForm">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required /><br /><br />
-
-          <label for="age">Age:</label>
-          <input type="number" id="age" name="age" required /><br /><br />
-
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required /><br /><br />
-
-          <input type="submit" value="Submit" />
+      <section class="contacts">
+        <h3>CONTACT ME</h3>
+        <form id="inputs">
+          <div class="short-input">
+            <input type="text" placeholder="Name..." id="name" />
+            <input type="email" placeholder="Email..." id="email" />
+          </div>
+          <textarea id="message" placeholder="Your message here..."></textarea
+          ><br />
+          <button type="submit" class="btn">Submit</button>
         </form>
-
-        <div id="displayInfo"></div>
+        <div id="displayMsg"></div>
       </section>
     </main>
 
     <footer>
-      <!-- ... (same as before) ... -->
+      <p>Made with ❤️ by Alfred Warui</p>
     </footer>
   </body>
 </html>

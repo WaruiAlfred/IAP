@@ -1,0 +1,78 @@
+/*contacts section*/
+.contacts {
+  background-image: url("../assets/backgrounds/c_image.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 100vh;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.contacts h3 {
+  padding-top: 80px;
+  margin-bottom: 30px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.short-input,
+#message {
+  width: 60%;
+}
+
+.short-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 290px;
+}
+
+.short-input input {
+  height: 40px;
+  width: 350px;
+}
+
+#message {
+  margin-top: 20px;
+  height: 200px;
+}
+
+input[type="text"] {
+  margin-right: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+#message {
+  background: transparent;
+  border: solid #fff 1px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+#message:focus {
+  outline: none;
+  color: #fff;
+}
+
+.btn {
+  margin-top: 20px;
+  outline: none;
+  padding: 10px 20px;
+  background-color: #4848ed;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #4848ed;
+}
