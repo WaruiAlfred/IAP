@@ -56,6 +56,13 @@ input[type="email"],
   border: solid #fff 1px;
 }
 
+#message::placeholder,
+input[type="text"]::placeholder,
+input[type="email"]::placeholder {
+  padding-left: 10px;
+  color: #b8b4b4;
+}
+
 input[type="text"]:focus,
 input[type="email"]:focus,
 #message:focus {
