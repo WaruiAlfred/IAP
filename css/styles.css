@@ -29,9 +29,11 @@ body::before {
 }
 
 header {
+  position: fixed;
   background-color: #333;
-  color: white;
+  color: #fff;
   padding: 10px;
+  width: 100%;
 }
 
 nav ul {
@@ -46,8 +48,13 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: #fff;
   text-decoration: none;
+}
+
+nav ul li a:hover {
+  transform: scale(1.1);
+  color: #5650f2;
 }
 
 h3 {
@@ -168,10 +175,46 @@ h4 {
   margin: 0 20px;
 }
 
+/* Contribution Section */
+.contribution {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.contribution__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  font-weight: bold;
+
+  width: 20%;
+  height: 180px;
+  background-color: #333;
+}
+
+.contribution__img {
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  margin-top: -50px;
+}
+
+.count {
+  font-size: 20px;
+}
+
 /* Footer */
 footer {
   background-color: #333;
-  color: white;
+  color: #fff;
   text-align: center;
   padding: 10px;
   position: fixed;
