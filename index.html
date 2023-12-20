@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
-    <title>Personality Index</title>
-    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/scripts.js" defer></script>
+    <title>Alfred Warui</title>
   </head>
   <body>
     <header>
@@ -16,19 +17,117 @@
         </ul>
       </nav>
     </header>
-
-    <main>
-      <!-- Photograph and address -->
-      <!-- Biography: education, employment history and any other relevant information. -->
-      <!--list of awards and/or distinctions-->
-      <!--list of this person's contributions to their relevant fields-->
-      <!--list of relevant references, including any RFPs, standards, papers, 
-      or books Authored by this person that are relevant to the discussion. If possible,
-      this should include links to online materials.-->
+    <main class="homepage">
+      <section class="intro">
+        <div class="intro__details">
+          <h1>Alfred Warui</h1>
+          <h3>Frontend & Backend Developer</h3>
+          <p>
+            I am a passionate web developer who finds joy in solving problems
+            (possible to solve technologically) with code.I have specialized in
+            ReactJs.
+          </p>
+          <ul>
+            <li><b>Phone: </b> +254 740 365 281</li>
+            <li><b>City: </b> Nairobi, Kenya</li>
+            <li><b>Email: </b> alfredwarui17@gmail.com</li>
+            <li><b>Freelance/Fulltime: </b> Available</li>
+          </ul>
+          <button>
+            <a href="./portfolio.html">Some of my work &#8594;</a>
+          </button>
+        </div>
+        <img src="./assets/me.png" alt="me" />
+      </section>
+      <section class="bio">
+        <h3>Employment</h3>
+        <ul>
+          <li>
+            <h4>Software Engineer</h4>
+            <p>Afrikanest</p>
+            <p>2019 - Present</p>
+          </li>
+        </ul>
+        <h3>Education</h3>
+        <ul>
+          <li>
+            <h4>Bachelor of Science in Computer Science</h4>
+            <p>Jomo Kenyatta University of Agriculture and Technology</p>
+            <p>2022 - Present</p>
+          </li>
+          <li>
+            <h4>Moringa School</h4>
+            <p>Software Development</p>
+            <p>2021</p>
+          </li>
+        </ul>
+      </section>
+      <section class="awards">
+        <h3>Awards</h3>
+        <ul>
+          <li>
+            <img
+              class="award__img"
+              src="./assets/awards/Moringa.png"
+              alt="award"
+            />
+            <p class="award__desc">
+              Completion of the Moringa School Software Development Course
+            </p>
+          </li>
+          <li>
+            <img
+              class="award__img"
+              src="./assets/awards/Brainnest.png"
+              alt="award"
+            />
+            <p class="award__desc">
+              Completion of Brainnest's Frontend Web Development Program
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="contribution">
+        <div class="contribution__container">
+          <img
+            class="contribution__img"
+            src="./assets/contributions/smile.svg"
+            alt="contribution"
+          />
+          <p class="count">3</p>
+          <p>Happy Clients</p>
+        </div>
+        <div class="contribution__container">
+          <img
+            class="contribution__img"
+            src="./assets/contributions/project.svg"
+            alt="contribution"
+          />
+          <p class="count">80+</p>
+          <p>Projects</p>
+        </div>
+        <div class="contribution__container">
+          <img
+            class="contribution__img"
+            src="./assets/contributions/code.svg"
+            alt="contribution"
+          />
+          <p class="count">10000+</p>
+          <p>Hours of coding</p>
+        </div>
+        <div class="contribution__container">
+          <img
+            class="contribution__img"
+            src="./assets/contributions/award.svg"
+            alt="contribution"
+          />
+          <p class="count">3</p>
+          <p>Awards</p>
+        </div>
+      </section>
     </main>
-
     <footer>
-      <!-- Footer content -->
+      <p>Made with ❤️ by Alfred Warui</p>
     </footer>
   </body>
 </html>
